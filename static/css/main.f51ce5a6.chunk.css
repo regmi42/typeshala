@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "preetinormal";
+    src: url(../../static/media/preeti_0-webfont.a40871dd.woff2) format("woff2"), url(../../static/media/preeti_0-webfont.ead487cd.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+#app,
+body {
+    width: 100%;
+    height: 100%
+}
+
+.fadeinElement {
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 7s;
+    -moz-animation: fadein 7s;
+    -webkit-animation: fadein 7s;
+    -o-animation: fadein 7s
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0
+    }
+    55% {
+        opacity: 1
+    }
+    85% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0
+    }
+    55% {
+        opacity: 1
+    }
+    85% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
